@@ -1,0 +1,66 @@
+body {
+  font-family: $global-font-styles; 
+
+  @include breakpoint-max(xs) {
+    font-size: 0.9rem;
+  }
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 1.05rem;
+}
+
+$heading-size-1: 3rem;
+$heading-size-2: 2rem;
+$heading-size-3: 1.7rem;
+$heading-size-4: 1.3rem;
+$heading-size-5: 1.1rem;
+//caption size
+$heading-size-6: 20px;
+
+$header-weight: 700;
+
+h1, 
+%h1, 
+.h1 {
+  font-size: $heading-size-1; 
+  font-weight: $header-weight;
+  text-transform: uppercase; 
+  margin-bottom: 1rem;
+}
+
+h2, 
+%h2, 
+.h2 {
+  font-size: $heading-size-2; 
+  font-weight: $header-weight;
+  text-transform: uppercase;
+  margin-bottom: 0.7rem;
+}
+
+h3, 
+%h3, 
+.h3 {
+  font-size: $heading-size-3; 
+  font-weight: $header-weight;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+h4, 
+%h4, 
+.h4 {
+  font-size: $heading-size-4; 
+  font-weight: $header-weight;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.u-t-cen {
+  text-align: center;
+}
+
+.u-curs-pointer {
+  cursor: pointer;
+}

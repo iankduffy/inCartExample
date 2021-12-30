@@ -1,0 +1,22 @@
+// Todo: Add to template site
+:root {
+  --background-colour: white; 
+  --text-color: #{$black};
+  --primary-color: #{$ravens-red};
+  --max-width: 1200px;
+  --side-padding: 20px;
+}
+
+[data-theme="dark"], 
+.dark--theme  {
+  --background-colour: #{$black}; 
+  --text-color: white;
+  --primary-color: #{$ravens-red};
+}
+
+[data-theme="red"],
+.red-theme {
+  --background-colour: #{$ravens-red}; 
+  --text-color: white;
+  --primary-color: white;
+}

@@ -1,0 +1,35 @@
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  display: block; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  color: $black;
+}
+
+html {
+  scroll-padding-top: 10px;
+  font-size: 15px; 
+  @include breakpoint-min(lg) {
+    font-size: 17px;
+  }
+
+  @include breakpoint-max(xs) {
+    font-size: 13px;
+  }
+}
